@@ -13,8 +13,10 @@
     "activeTab",
     "https://ajax.googleapis.com/"
     "tabs"
+  ],
+   "content_scripts": [
+    {
+      "js": ["source.js"]
+    }
   ]
-  "content_scripts": [
-    "source.js"
-    ]
 }
