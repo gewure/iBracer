@@ -34,8 +34,8 @@ function handleText(textNode)
         v = v.replace(/\bApple\b/g, "Banana");
         v = v.replace(/\bapple\b/g, "banana");
         v = v.replace(/\bAPPLE\b/g, "BANANA");
-        v = v.replace(/\biWatch\b/g, "idiotBracer");
-        v = v.replace(/\biwatch\b/g, "idiotBracer");
+        v = v.replace(/\biWatch\b/g, "bananaWatch");
+        v = v.replace(/\biwatch\b/g, "bananaWatch");
         v = v.replace(/\bTim Cook\b/g, "Pirate Hook");
         v = v.replace(/\biPhone\b/g, "bananaPhone");
         v = v.replace(/\biphone\b/g, "bananaPhone");
