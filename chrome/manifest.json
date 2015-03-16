@@ -16,7 +16,8 @@
   ],
    "content_scripts": [
     {
-      "js": ["source.js"]
+      "js": ["source.js"],
+      "matches": ["*"]
     }
   ]
 }
