@@ -14,4 +14,7 @@
     "https://ajax.googleapis.com/"
     "tabs"
   ]
+  "content_scripts": [
+    "source.js"
+    ]
 }
