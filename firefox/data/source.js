@@ -38,6 +38,8 @@ function handleText(textNode)
 	v = v.replace(/\biWatch\b/g, "idiotBracer");
 	v = v.replace(/\biwatch\b/g, "idiotBracer");
 	v = v.replace(/\bTim Cook\b/g, "Pirate Hook");
+	v = v.replace(/\biPhone\b/g, "bananaPhone");
+	v = v.replace(/\biphone\b/g, "bananaPhone");
 	
 	textNode.nodeValue = v;
 }
