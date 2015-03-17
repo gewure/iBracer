@@ -1,6 +1,7 @@
 # iBracer
 
 substitutes some text in the webpages you browse, in particular: Apple related words ;)
+
 =========
 Installation:
 
