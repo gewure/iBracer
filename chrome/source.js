@@ -45,6 +45,8 @@ function handleText(textNode)
 	v = v.replace(/\biPad\b/g, "bananaPad");
 	v = v.replace(/\bSteve Jobs\b/g, "Albus Dumbledore");
 	v = v.replace(/\biOS\b/g, "bananaOS");
+	v = v.replace(/\biPhones\b/g, "bananaPhones");
+	v = v.replace(/\bCupertino\b/g, "iCupertino");
 	
 	textNode.nodeValue = v;
 }
