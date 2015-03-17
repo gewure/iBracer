@@ -1,5 +1,8 @@
 # iBracer
-substitutes some text
+
+substitutes some text in the webpages you browse, in particular: Apple related words ;)
+
+
 
 =========
 You like this?
