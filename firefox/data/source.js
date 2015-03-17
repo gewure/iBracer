@@ -34,12 +34,16 @@ function handleText(textNode)
 
 	v = v.replace(/\bApple\b/g, "Banana");
 	v = v.replace(/\bapple\b/g, "banana");
+	v = v.replace(/\bApple's\b/g, "Banana's");
+	v = v.replace(/\bapple's\b/g, "banana's");
 	v = v.replace(/\bAPPLE\b/g, "BANANA");
 	v = v.replace(/\biWatch\b/g, "bananaWatch");
 	v = v.replace(/\biwatch\b/g, "bananaWatch");
 	v = v.replace(/\bTim Cook\b/g, "Pirate Hook");
 	v = v.replace(/\biPhone\b/g, "bananaPhone");
 	v = v.replace(/\biphone\b/g, "bananaPhone");
+	v = v.replace(/\bipad\b/g, "bananaPad");
+	v = v.replace(/\biPad\b/g, "bananaPad");
 	
 	textNode.nodeValue = v;
 }
