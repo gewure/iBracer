@@ -6,11 +6,13 @@ substitutes some text in the webpages you browse, in particular: Apple related w
 Installation:
 
 Google Chrome:
+--------------
 download chrome.crx
 choose Window > Extensions. Drag Chrome.crx into the page that appears.
 alternative: goto chrome://extensions , chose "load extension" pick chrome.crx
 
 Mozilla Firefox:
+--------------
 download pirate_hook_banana.xpi
 choose Options/Add-Ons go to 'install Add-On from File' -> choose pirate_hook_banana.xpi
 
