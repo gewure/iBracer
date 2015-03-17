@@ -36,6 +36,8 @@ function handleText(textNode)
 
         v = v.replace(/\bApple\b/g, "Banana");
         v = v.replace(/\bapple\b/g, "banana");
+        v = v.replace(/\bApples\b/g, "Bananas");
+        v = v.replace(/\bapples\b/g, "bananas");
         v = v.replace(/\bApple's\b/g, "Banana's");
         v = v.replace(/\bapple's\b/g, "banana's");
         v = v.replace(/\bAPPLE\b/g, "BANANA");
