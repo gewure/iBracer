@@ -1,9 +1,12 @@
 # iBracer
 
-substitutes some text in the webpages you browse, in particular: Apple related words ;)
+substitutes some text in the webpages you browse, in particular: Apple related words ;) 
+works fast and reliable to free you from annoying Apple products, articles and propaganda.
+
+v2.0 with on/off button and fancy CSS comming soon.
+
 
 =========
-Installation:
 
 Google Chrome:
 --------------
