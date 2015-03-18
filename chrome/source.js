@@ -1,5 +1,5 @@
 window.setTimeout(function(){walk(document.body);}, 100);
-window.setInterval(function(){walk(document.body);}, 30000);
+//window.setInterval(function(){walk(document.body);}, 30000);
 
 walk(document.body);
 
