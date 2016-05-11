@@ -1,8 +1,8 @@
 {
-  "name": "pirate_hook_banana",
-  "title": "Pirate Hook's Banana Extension",
+  "name": "Österreich Plugin",
+  "title": "Österreich Plugin",
   "id": "jid1-0E0pcp1txBf2gd",
-  "description": "substitutes some text :)",
+  "description": "ersetzt bestimmten Text mit anderem bestimmten Text",
   "author": "aaad & gewure",
   "license": "MPL 2.0",
   "version": "1.1"

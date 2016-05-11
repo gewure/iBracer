@@ -1,12 +1,14 @@
 {
   "manifest_version": 2,
 
-  "name": "Pirate Hook's Banana Extension",
-  "description": "substitutes some text :)",
-  "version": "1.0",
+  "name": "Österreich Plugin",
+  "title":"Österreich Plugin",
+  "description": "Ersetzt bestimmte Strings mit anderen bestimmten Strings. Satireprojekt.",
+  "version": "1.1",
+  "author":"gewure & aaad",
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "afa_icon.png",
     "default_popup": "popup.html"
   },
   "permissions": [

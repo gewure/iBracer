@@ -1,5 +1,45 @@
 <html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=1145">
+    <STYLE type="text/css">
+        h1 {
+            animation-duration: 400ms;
+            animation-name: blink;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+                color: pink;
+            }
+
+            25% {
+                color: green;
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+                color: blue;
+            }
+
+            75% {
+                opacity: 0;
+                color: orange;
+            }
+
+            100% {
+                opacity: 1;
+                color: pink;
+            }
+        }
+    </STYLE>
+</head>
 <body>
-<blink><h1>ring ring ring ring ring ring Bananaphone!</blink></h1>
+    <h1>Go out and Vote!</h1>
 </body>
 </html>
