@@ -1,25 +1,25 @@
 {
   "manifest_version": 2,
-
   "name": "Österreich Plugin",
-  "title":"Österreich Plugin",
   "description": "Ersetzt bestimmte Strings mit anderen bestimmten Strings. Satireprojekt.",
   "version": "1.1",
-  "author":"gewure & aaad",
-
+  "author": "gewure & aaad",
   "browser_action": {
     "default_icon": "afa_icon.png",
     "default_popup": "popup.html"
   },
   "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/",
     "tabs"
   ],
-   "content_scripts": [
+  "content_scripts": [
     {
-      "matches": ["*://*/*"],
-      "js": ["source.js"],
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "source.js"
+      ],
+      "all_frames": true,
       "run_at": "document_end"
     }
   ]
